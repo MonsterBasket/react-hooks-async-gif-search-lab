@@ -13,7 +13,6 @@ function GifListContainer({searchTerm}){
                 newArray.push(json.data[i]);
             }
             setImages([...newArray]);
-            console.log({searchTerm})
         })
     }, [searchTerm])
 
